@@ -1,0 +1,23 @@
+/* CSS file or inline style */
+.dropdown-menu {
+    display: none; /* Initially hide the dropdown menu */
+  }
+  
+  .dropdown-menu.show {
+    display: block; /* Show the dropdown menu when it has 'show' class */
+  }
+
+  .nav-link{
+    border-radius: 5px;
+  }
+
+  .nav-link:hover{
+    background-color: #aca7a7;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover .dropdown-menu {
+    display: block; /* Show the dropdown menu when the nav-link is hovered */
+  }
+

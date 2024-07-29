@@ -1,0 +1,192 @@
+/* Signin.css */
+
+
+.container-sign-in {
+  width: 80%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  padding: 20px;
+  border-radius: 30px;
+  background: linear-gradient(127deg  ,#007bff , #ffffff , #1bc216); /* White background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out; 
+  /* grid-template-columns: repeat(auto-fit , minmax(300px , 1fr)); */
+  transform: translateY(-5%);
+}
+
+.container-sign-up {
+  width: 80%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #d8d7d7, #4f53b1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out; /* Light gray background color */
+  transform: translateY(-10%) rotateY(180deg);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+span {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #090909;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.btn-right {
+  background-color: #007bff; /* Blue background color for the "Sign Up" button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 15px; /* Smaller padding */
+  border-radius: 5px; /* Smaller border radius */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.btn-right:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Increase the intensity of the box shadow on hover */
+}
+
+.btn-right:hover {
+  opacity: 0.8;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  color:#000;
+  margin-bottom: 20px;
+}
+
+.ghost {
+  background-color: transparent; /* Transparent background for buttons */
+  border: 1px solid #ccc; /* Gray border */
+  color: #ccc; /* Gray text color */
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.ghost:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f2f5; /* Light gray background color */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f2f5; /* Light gray background color */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+.Button-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.flip-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flip-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.container-sign-in,
+.container-sign-up {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  backface-visibility: hidden;
+}
+
+
+.password-wrapper .form-control {
+  max-width: 400px;
+  border : none;
+  transition: all 0.4s ease;
+}
+
+.password-wrapper .btn {
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+

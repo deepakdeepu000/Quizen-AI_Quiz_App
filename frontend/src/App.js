@@ -25,22 +25,12 @@ axios.defaults.baseURL = 'http://localhost:5000/';
 
 
 function App() {
-  return (
-    //   <>
-    //   <NavigationContainer>
-    //     <Stack.Navigator initialRouteName="TextGeneration"  options={{ headerShown: false}} >
-    //       <Stack.Screen name="TextGeneration" component={WrappedTextScreen} />
-    //       <Stack.Screen name="Upload" component = {WrappedUploadScreen}/>
-    //       <Stack.Screen name="Login" component={SignInUpForm} />
-    //     </Stack.Navigator>
-    //   </NavigationContainer> 
-    // </>
+  return {
     <Router>
       <Routes>
-        {/* <Route path='/' element={< />} /> */}
         <Route path="/Example" element={<Example/>} />
         <Route path="/StudentDetails" element={<StudentDetails />} />
-        <Route path="/TextGeneration" element={<WrappedTextScreen />} />
+        <Route path="/" element={<WrappedTextScreen />} />
         <Route path="/upload/Resume-Test/QuestionGeneration" element={<QuestionGeneration />} />
         <Route path="/upload" element={<WrappedUploadScreen />} />
         <Route path="/Login" element={<Login />} />

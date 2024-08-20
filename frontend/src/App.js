@@ -25,7 +25,7 @@ axios.defaults.baseURL = 'http://localhost:5000/';
 
 
 function App() {
-  return {
+  return (
     <Router>
       <Routes>
         <Route path="/Example" element={<Example/>} />

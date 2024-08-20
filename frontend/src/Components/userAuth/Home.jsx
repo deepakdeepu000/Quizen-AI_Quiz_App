@@ -1,4 +1,4 @@
-import React , { useState } from 'react';https://github.com/deepakdeepu000/Quizen-AI_Quiz_App/blob/main/frontend/src/Components/userAuth/Home.jsx
+import React , { useState } from 'react';
 // import CustomWebCam from '../Helpers/webCam';
 // import WebCamComponent from '../Helpers/Cam';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
